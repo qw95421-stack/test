@@ -1,7 +1,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { AIAdvice } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: "AIzaSyD6feVf78uSZj0BUCMCm6yOMoizH40pv2A" });
 
 export const getPregnancyAdvice = async (week: number): Promise<AIAdvice> => {
   try {
